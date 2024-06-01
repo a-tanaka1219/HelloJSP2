@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@page isErrorPAge="true" %>
+<%@page isErrorPage="true" %>
 <p>数値を入力してください。</p>
 <button onclick="history.back()">戻る</button>
 <br>
@@ -15,7 +15,7 @@
 <table border=1>
 <tr>
 <td><strong>エラーメッセージ</strong></td>
-<td><%=exception.getMessege() %></td>
+<td><%=exception.getMessage() %></td>
 </tr>
 <tr>
 <td><strong>例外を文字列に変換</strong></td>
